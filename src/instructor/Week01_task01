@@ -1,0 +1,6 @@
+Write a method which identifies given number is even or odd
+
+Example :
+identify(5) -> output -> "Odd"
+identify(6) -> output -> "Even"
+
