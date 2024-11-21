@@ -8,8 +8,6 @@ public class week_01task_solution {
               System.out.println(identify(5));
               System.out.println(identify(6));
 
-
-
     }
 
     public static String identify(int number) {
