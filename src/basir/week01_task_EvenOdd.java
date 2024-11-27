@@ -4,7 +4,7 @@ public class week01_task_EvenOdd {
 
     public static void main(String[] args) {
 
-        OddorEven(11);
+        System.out.println(OddorEven(11));
         System.out.println(OddorEven(6));
     }
 
