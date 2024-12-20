@@ -6,27 +6,27 @@ public class Week05_FrequencyOfCharacters {
         System.out.println(calculateFrequencyOfChars(new StringBuilder("fAABBTTPPPAlf")));
 
     }
-    public static String calculateFrequencyOfChars(StringBuilder chars){
-        StringBuilder result = new StringBuilder();
+    public static String calculateFrequencyOfChars(StringBuilder givenSTB){
+        StringBuilder resultSTB = new StringBuilder();
         for (int i = 0; i < 1;) {
             int count = 0;
-            char each = chars.charAt(i);
-            result.append(each);
-            for (int j = 0; j < chars.length(); j++) {
-                if (chars.charAt(j) == each){
+            char each = givenSTB.charAt(i);
+            resultSTB.append(each);
+            for (int j = 0; j < givenSTB.length(); j++) {
+                if (givenSTB.charAt(j) == each){
                     count++;
-                    chars.deleteCharAt(j);
+                    givenSTB.deleteCharAt(j);
                     j--;
 
                 }
 
             }
-            result.append(count);
-            if (chars.length()==0){
+            resultSTB.append(count);
+            if (givenSTB.length()==0){
                 break;
             }
 
         }
-        return result.toString();
+        return resultSTB.toString();
     }
 }
