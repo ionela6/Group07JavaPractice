@@ -13,7 +13,7 @@ public class Week02_task_solution {
         fin();
     }
     public static void fin(){
-        for (int i = 1; i <=30 ; i++) {
+        for (int i = 1; i <30 ; i++) {
             if(i % 3 ==0 && i % 5 ==0){
                 System.out.println("FINRA");
             } else if (i % 3==0) {
