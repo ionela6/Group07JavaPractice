@@ -13,11 +13,11 @@ public class Week09_PasswordValidation {
         System.out.println("Please Enter your Password : ");
         String password = scanner.next();
         boolean result = true;
-        Boolean hasUpperCase = true;
-        Boolean hasLowerCase = true;
-        Boolean hasDigit = true;
-        Boolean hasMoreThan5Characters = true;
-        Boolean hasSpecialChar = true;
+        boolean hasUpperCase = true;
+        boolean hasLowerCase = true;
+        boolean hasDigit = true;
+        boolean hasMoreThan5Characters = true;
+        boolean hasSpecialChar = true;
 
         if (!password.matches(".*[A-Z].*")) {
             hasUpperCase = false;
