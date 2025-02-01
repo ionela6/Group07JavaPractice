@@ -45,7 +45,7 @@ public class Week09_PasswordValidation {
 
 
         if (hasUpperCase && hasLowerCase && hasDigit && hasMoreThan5Characters && hasSpecialChar) {
-            result = true;
+
             System.out.println("result = " + result);
             System.out.println("Great, your password match all conditions");
         } else {
